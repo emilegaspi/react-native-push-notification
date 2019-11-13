@@ -331,4 +331,9 @@ Notifications.clearAllNotifications = function() {
 	return this.callNative('clearAllNotifications', arguments)
 }
 
+Notifications.removeAllDeliveredNotifications = function() {
+	// Only available for iOS
+	return this.callNative('removeAllDeliveredNotifications', arguments);
+}
+
 module.exports = Notifications;
