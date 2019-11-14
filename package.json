@@ -24,7 +24,7 @@
     "url": "git+ssh://git@github.com:zo0r/react-native-push-notification.git"
   },
   "dependencies": {
-    "@react-native-community/push-notification-ios": "^1.0.3"
+    "@react-native-community/push-notification-ios": "github:emilegaspi/react-native-push-notification-ios#3e6a877c8b6d7723616055ebb58a531a68ed83dc"
   },
   "peerDependencies": {
     "react-native": ">=0.33"
